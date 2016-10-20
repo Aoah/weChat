@@ -1,0 +1,37 @@
+<view class="containter">
+
+  <view class="list" wx:for="{{list}}" wx:for-item="items">
+       <icon type="{{items.type}}"  size="25" class="red"></icon>
+       <image class="image1" src="{{items.src}}" mode="aspectFill">
+       </image>
+       <view class="tt">
+           <view class="t1">
+             {{items.contain}}
+           </view>
+           <view class="t2">
+                <view class="t21">
+                   {{items.size}}
+                </view>
+                <view  class="t22">
+                   {{items.price}}
+                 </view>
+           </view>
+           <view class="t3Out">
+               <view class="t3">
+                   <view class="jian">
+                      －
+                   </view>
+                    <view>{{items.count}}
+                    </view>
+                    <view  class="jia" >
+                      ＋
+                    </view>
+                </view>
+                <image class="dele" src="/images/del.png">
+                </image>
+           </view>
+
+  </view>
+
+
+</view>

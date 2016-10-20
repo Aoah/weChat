@@ -1,0 +1,42 @@
+
+    <view class="containter">
+      <view class="sidle">
+          <ul>
+             <li catchtap="li1tap" data-index="0" class="{{now ==0? 'li1change' : 'li1' }}">运动生活</li>
+             <li catchtap="li1tap" data-index="1" class="{{now ==1? 'li1change' : 'li1' }}">户外鞋服</li>
+             <li catchtap="li1tap" data-index="2" class="{{now ==2? 'li1change' : 'li1' }}">休闲服装</li>
+             <li catchtap="li1tap" data-index="3" class="{{now ==3? 'li1change' : 'li1' }}">精品男装</li>
+             <li catchtap="li1tap" data-index="4" class="{{now ==4? 'li1change' : 'li1' }}">时尚男鞋</li>
+             <li catchtap="li1tap" data-index="5" class="{{now ==5? 'li1change' : 'li1' }}">时尚女鞋</li>
+             <li catchtap="li1tap" data-index="6" class="{{now ==6? 'li1change' : 'li1' }}">快乐儿童</li>
+             <li catchtap="li1tap" data-index="7" class="{{now ==7? 'li1change' : 'li1' }}">全球购</li>
+             <li catchtap="li1tap" data-index="8" class="{{now ==8? 'li1change' : 'li1' }}">家居服饰</li>
+             <li catchtap="li1tap" data-index="9" class="{{now ==9? 'li1change' : 'li1' }}">品牌馆</li>
+         </ul>
+     </view>
+     <scroll-view scroll-y="true" class="contain">
+       <loading   hidden="{{loadHidden}}" bindchange="loadingChange">
+           加载中..
+       </loading>
+
+         <scroll-view   scroll-x="true" class="{{list2.length? 'logo' : ''}}">
+              <view class="block" wx:for="{{list2}}"  accesskey="" accesskey="54" wx:for-item="items" >
+                    <image  src="{{items.src}}" mode="aspectFill"></image>
+                    <text>{{items.dec}}</text>
+              </view>
+         </scroll-view>
+
+         <view class="ttt">
+             <block class="bb" wx:for="{{list3}}" wx:for-item="items">
+                  <text class="bbtitle"> {{items.title}}</text>
+                  <view class="outCon1">
+                    <view catchtap="list3Nav" class="con1" wx:for="{{items.more}}" wx:for-item="item">
+                          <image src="{{item.src}}"></image>
+                          <text> {{item.titLittle}}</text>
+                    </view>
+                  </view>
+
+             </block>
+         </view>
+     </scroll-view>
+    </view>

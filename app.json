@@ -1,0 +1,54 @@
+{
+    "pages": [
+
+           "pages/okbuy/list/list",
+           "pages/okbuy/shopCars/shopcar",
+        "pages/okbuy/user/user",
+        "pages/okbuy/register/register",
+        "pages/okbuy/main/index",
+ "pages/okbuy/list/detail",
+        "pages/okbuy/buy/buy",
+
+        "pages/index/index",
+        "pages/logs/logs"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "#000",
+        "navigationBarTitleText": "好乐买",
+        "navigationBarTextStyle": "white"
+
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "black",
+        "selectedColor": "#fff",
+        "borderStyle": "white",
+        "list": [{
+            "pagePath": "pages/okbuy/main/index",
+            "text": "首页",
+            "iconPath": "images/index.png",
+            "selectedIconPath": "images/index2.png"
+        }, {
+            "pagePath": "pages/okbuy/list/list",
+            "text": "分类",
+            "iconPath": "images/list.png",
+            "selectedIconPath": "images/list2.png"
+        }, {
+            "pagePath": "pages/okbuy/buy/buy",
+            "text": "限时特卖",
+            "iconPath": "images/buy.png",
+            "selectedIconPath": "images/buy2.png"
+        }, {
+            "pagePath": "pages/okbuy/shopCars/shopcar",
+            "text": "购物车",
+            "iconPath": "images/cars.png",
+            "selectedIconPath": "images/cars2.png"
+        }, {
+            "pagePath": "pages/okbuy/user/user",
+            "text": "用户",
+            "iconPath": "images/user.png",
+            "selectedIconPath": "images/user2.png"
+        }]
+    }
+}

@@ -1,0 +1,101 @@
+.containter{
+  height:100%;
+  width:100%;
+}
+.list{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding-left:16rpx;
+  padding-right:20rpx;
+  width:100%;
+  height:230rpx;
+  border-bottom: 1px solid #eee;
+}
+.block{
+  width:100%;
+  height:20rpx;
+  background: #eee;
+}
+.image1{
+  margin-right:20rpx;
+  margin-left:16rpx;
+  display: inline-block;
+    width:189rpx;
+    height:189rpx;
+    border:1px solid #eee;
+    border-radius:5rpx;
+}
+.tt{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  flex:1;
+  padding-right:20rpx;
+  box-sizing: border-box;
+  width:349rpx;
+  height:185rpx;
+}
+.tt text{
+  line-height: 30rpx;
+  font-size: 26rpx;
+
+}
+.t1 {
+  font-size:26rpx;
+}
+.t2{
+    padding-right:20rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.t21{
+  line-height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size:22rpx;
+  color:#b0b0b0;
+}
+.t22{
+  font-size:22rpx;
+  color:#d70057;
+}
+.t3Out{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.t3{
+  display: flex;
+  flex-direction:row;
+
+  color:#999;
+  width:190rpx;
+  height:60rpx;
+  border:1px solid #eee;
+  border-radius:5rpx;
+}
+.t3 view{
+  color: #000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  flex:1;
+}
+.dele{
+    width:29rpx;
+    height:29rpx;
+}
+
+.jian{
+      border-right:1px solid #eee;
+}
+.jia{
+     border-left:1px solid #eee;
+}

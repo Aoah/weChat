@@ -1,0 +1,39 @@
+<view class="containter">
+  <scroll-view  scroll-y="true"  bindscrolltoupper="upper" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" upper-threshold="0" lower-threshold="0">
+  	  <view hidden="{{hiddenrefresh}}">
+  		    <view><image class="refearch" src="/images/okbuy.gif" mode="aspectFit">路径</image></view>
+  	  </view>
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  >
+
+		         <block wx:for="{{imgUrls}}">
+		              <swiper-item>
+		                 <image src="{{item}}" mode="aspectFill" ></image>
+		              </swiper-item>
+		        </block>
+		</swiper>
+		<view  class="midSection">
+	                 <view wx:for="{{list}}" wx:for-item="item" >
+		                    <image class="imagmid" src="{{item.src}}" ></image>
+		                    <text>{{item.txt}}</text>
+		              </view>
+		</view>
+	    <view class="littleTit">
+	         <view class="borddd">laba</view>
+	          <text>评价，晒单有好礼</text>
+	    </view>
+	    <view class="heng">
+
+	    </view>
+
+			<view catchtap="navigation" wx:for="{{more}}" wx:for-item="items">
+			   <view class="img1">
+					    <image src="{{items.src}}"></image>
+			   </view>
+			   <view class="ttt">
+			            <view class="tttL"></view>
+			              <view class="tttM"> {{items.text1}} <text>{{items.text2}}</text> </view>
+			        	 <view class="tttL"></view>
+			   </view>
+		 </view>
+  </scroll-view>
+</view>

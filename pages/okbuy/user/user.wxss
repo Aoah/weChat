@@ -1,0 +1,115 @@
+.containter {
+    box-sizing: border-box;
+    height: 100%;
+    background: url("/images/bg1.png");
+    padding-top: 38rpx;
+}
+
+.form {
+    background: white;
+}
+
+.userId {
+    height: 100rpx;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userId label {
+    margin-left: 30rpx;
+    flex: 2;
+}
+
+.userId input {
+    flex: 8;
+}
+
+.loginWay {
+    height: 100rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconPass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconPhone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30rpx;
+}
+
+.pass {
+  color:black;
+    font-size: 35rpx;
+}
+
+.yanze {
+    color: #999;
+    font-size: 35rpx;
+}
+
+icon {
+    margin-top: 33rpx;
+    line-height: 100rpx;
+    height: 100rpx;
+    margin-left: 33rpx;
+}
+
+.loginBtn {
+    margin-top: 10rpx;
+    width: 630rpx;
+    height: 85rpx;
+    line-height: 78rpx;
+}
+
+.link {
+    font-size: 26rpx;
+    color: #999;
+    margin-top: 32rpx;
+    padding: 0 80rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toget {
+    margin-top: 56rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toget text {
+    font-size: 30rpx;
+    color: #6f7179;
+}
+
+.liner {
+    width: 240rpx;
+    height: 15rpx;
+    border-bottom: 1rpx #999 solid
+}
+
+.other {
+    margin-top: 56rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other image {
+    width: 100rpx;
+    height: 100rpx;
+}

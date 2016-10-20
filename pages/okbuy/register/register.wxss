@@ -1,0 +1,57 @@
+.containter {
+    box-sizing: border-box;
+    height: 100%;
+    background: url("/images/bg1.png");
+    padding-top: 38rpx;
+}
+
+.form {
+    background: white;
+}
+
+.userId {
+    height: 100rpx;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userId label {
+    margin-left: 30rpx;
+    flex: 2;
+}
+
+.userId input {
+    flex: 8;
+}
+.userId .inputyan{
+  flex:5;
+}
+
+.yanze {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#999;
+    border-left: 1px solid #ebebeb;
+    height: 100%;
+    flex: 3;
+}
+.yanze text{
+      line-height:100%;
+}
+button{
+    width:90%;
+    margin:auto;
+    margin-top:40rpx;
+}
+.txt{
+  padding-left:5%;
+  margin-top:50rpx;
+  font-size:30rpx;
+}
+.txt text{
+     color:red;
+}

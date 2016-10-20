@@ -1,0 +1,29 @@
+<view class="containter">
+    <view class="list1">
+          <view catchtap="navtap" data-index="0" class="{{current==0 ? 'redColor':''}}" >默认</view>
+          <view catchtap="navtap" data-index="1" class="{{current==1 ? 'redColor':''}}" > 销量</view>
+          <view catchtap="navtap" data-index="2" class="{{current==2 ? 'redColor':''}}">价格</view>
+          <view catchtap="navtap" data-index="3" class="{{current==3 ? 'redColor':''}}" >折扣</view>
+    </view>
+    
+    <scroll-view scroll-y="true">
+        <image class="banner" src="/images/detail.jpg" ></image>
+        <view class="con">
+              <view class="con1" wx:for="{{detail2}}" wx:for-item="items">
+                 <image mode="aspectFill" src="{{items.src}}"></image>
+                  <view class="tit">{{items.title}}</view>
+                  <view class="font">
+                    <view class="ff1">
+                      <view class="f1"> {{items.price1}}</view>
+                      <view class="f2">
+                         ¥{{items.price2}}
+                       </view>
+                     </view>
+                       <view class="f3">
+                          {{items.discount}}
+                       </view>
+                  </view>
+              </view>
+        </view>
+  </scroll-view>
+</view>

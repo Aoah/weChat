@@ -1,0 +1,52 @@
+<view class="containter">
+   <view class="form">
+       <view class="userId">
+           <label>{{inputContent.laberT}} </label>
+           <input bindinput="bindKeyInputName" placeholder="{{inputContent.inputT}}"> </input>
+       </view>
+       <view class="userId">
+           <label>{{inputContent.laberB}}</label>
+           <input bindinput="bindKeyPassword" password type="number" placeholder="{{inputContent.inputB}}"> </input>
+       </view>
+    </view>
+
+     <view class="loginWay">
+           <view class="iconPass">
+                  <icon catchtap="passtap" type="{{posswordIn}}" size="25" color="#666"/>
+                  <text class="{{changeTextC.passbind}}">密码登录</text>
+            </view>
+            <view class="iconPhone">
+                  <icon catchtap="phonetap" type="{{phoneIn}}" size="25" color="#666"/>
+                    <text class="{{changeTextC.yanzebind}}">手机验证码登录</text>
+            </view>
+     </view>
+
+     <button class="loginBtn" type="warn" size="default" bindtap="warn"> 登录 </button>
+
+     <view class="link">
+           <navigator url="../register/register" hover-class="navigator-hover">
+             <text>注册</text>
+           </navigator>
+            <text>忘记密码?</text>
+     </view>
+
+   <view  class="toget">
+        <view class="liner">
+        </view>
+        <text> 联合登录</text>
+        <view class="liner">
+        </view>
+   </view>
+
+   <view class="other">
+        <image src="/images/pay.png" mode="aspectFill"></image>
+         <image src="/images/qq.png" mode="aspectFill"> </image>
+         <image src="/images/weixin.png" mode="aspectFill"></image>
+          <image src="/images/sina.png" mode="aspectFill"> </image>
+   </view>
+
+
+
+
+
+</view>

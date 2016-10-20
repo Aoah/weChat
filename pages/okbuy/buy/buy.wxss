@@ -1,0 +1,80 @@
+.containter{
+        height:100%;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+}
+.main-nav ul{
+	 height:76rpx;
+	 display: flex;
+	 flex-wrap: nowrap;
+	 overflow: scroll;
+	  border-bottom:1px solid #d9d9d9;
+}
+.refearch{
+	width:100%;
+	height:40px;
+}
+.main-nav ul li{
+	   float:left;
+       height:75rpx;
+       width:130rpx;
+       text-align:center;
+       line-height:75rpx;
+       font-size:28rpx;
+       color:#666;
+       box-sizing: border-box;
+}
+.main-nav ul li.active{
+       color:red;
+       border-bottom:2px solid red;
+}
+swiper{
+          flex:1;
+}
+swiper-item{
+        height:100%;
+       display: flex;
+       justify-content:center;
+       align-items:center;
+       background:url(/images/heng.png);
+}
+swiper-item .v1{
+        margin:auto;
+        margin-top:20rpx;
+        padding:10rpx;
+       width:600rpx;
+       height:270rpx;
+       background:white;
+       box-shadow: 0 0 2px black;
+}
+scroll-view{
+        height:100%;
+}
+swiper-item image{
+        width:100%;
+        height:80%;
+}
+.v1 view{
+        height:20%;
+        position:relative;
+}
+.v1 text{
+        font-size:22rpx;
+        line-height:20%;
+}
+
+.tt1{
+        color:#ffb687;
+}
+.tt2{
+        margin-left:22rpx;
+        color:#4b4b4b;
+}
+.tt3{s
+        height:20%;
+        position:absolute;
+        top:20rpx;
+        right:0;
+        color:#bababa;
+}
